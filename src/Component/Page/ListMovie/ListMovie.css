@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.show-more{
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: rgb(200, 200, 4);
+    color: white;
+    border-radius: 20px;
+    width: 150px;
+    font-weight: 600;
+    transition: 0.5s;
+    font-size: 12px;
+}
+.show-more:hover{
+    background-color: black;
+    color: white;
+    border: 1px solid rgb(200, 200, 4);
+}

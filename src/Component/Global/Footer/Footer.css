@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    width: 100%;
+    display: block;
+}
+ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+footer{
+    background-color: black;
+}
+.list-menu li{
+    font-size: 12px;
+    font-weight: 600;
+    
+}
+.logo img{
+    width: 130px;
+}
+@media (max-width: 575px) {
+    .desc{
+        font-size: 12px;
+    }
+    .list-menu li {
+        font-size: 10px;
+    }
+    .logo img {
+        width: 100px;
+    }
+}
+@media (max-width: 479px) {
+    .desc {
+       text-align: center;
+    }
+}
